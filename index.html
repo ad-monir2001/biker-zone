@@ -7,7 +7,7 @@
   </head>
   <body class="font-popins">
     <header class="bg-[#264653]">
-      <nav>
+      <nav class="hidden md:block">
         <ul
           class="flex gap-8 items-center justify-end text-white font-normal pt-11 pr-16"
         >
@@ -20,7 +20,8 @@
           </li>
         </ul>
       </nav>
-      <div class="flex items-center justify-between py-16 px-16">
+      <img class="float-right m-5 md:hidden" src="images/icons/hambur.svg" alt="">
+      <div class="lg:flex items-center justify-between space-y-12 py-16 md:px-16 px-5">
         <div class="">
           <p class="text-white font-light leading-4">
             Computer-controlled digital transistorized with electronic advance
@@ -46,5 +47,14 @@
         </div>
       </div>
     </header>
+    <main>
+      <!-- Fetured bikes section start here -->
+       <section class="mt-16">
+        <h1 class="text-center font-semibold text-5xl">Featured Bikes In This Year</h1>
+        <p class="text-center font-semibold text-sm text-[#e76f51] mt-2">Best bike collection</p>
+        <hr class="w-14 h-[2px] bg-[#E76F51] mx-auto">
+       </section>
+      <!-- Fetured bikes section end here -->
+    </main>
   </body>
 </html>
